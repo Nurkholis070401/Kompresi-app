@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compresed Image And Audio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="desctiption" content="Affordable and proffessional web design">
+	<meta name="keywords" content="web, design, code, html, css, best">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+<body>
+  <header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Compressed & Resize</span> Web Design</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="Services.html">Services</a></li>
+				</ul>
+			</nav>
+		</div>
+    
+	</header>
+
+  
+<section id="showcase">
+  <div class="container">
+    <!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+
+
+      <h2 class="compe"><span class="compresed">Resize </span> Gambar</h2>
+      <input href="#" class="neon-button" type="file" id="imageInput"  accept="image/*">
+      <button href="#" class="neon-button" onclick="resizeImage()">Resize</button>
+      <br>
+      <img id="previewImage" src="#" alt="Preview" style="display:none; max-width:300px;">
+      
+      <h2>Compress Audio</h2>
+      <input href="#" class="neon-button" type="file" id="audioInput" accept="audio/*">
+      <button href="#" class="neon-button" onclick="compressAudio()">Compress</button>
+      <br>
+      <audio id="previewAudio" controls style="display:none;"></audio>
+      
+      <h2>Hapus dan Download File</h2>
+      <button href="#" class="neon-button" onclick="deleteFile('previewImage')">Hapus Gambar</button>
+      <a id="downloadLink" href="#" download style="display:none;">Download Gambar/Audio</a>
+  
+  </div>
+</section>
+
+<section id="newsletter">
+  <div class="container">
+    <h1>Ulasan dan Pertanyaan</h1>
+    <form action="">
+      <input type="email" placeholder="Enter email... ">
+      <button class="button_1">Send</button>
+    </form>
+  </div>
+</section>
+
+
+
+<footer>
+  <p>@Nur Webdesign &copy; 2023</p>
+</footer>
+  <script src="script.js"></script>
+ 
+
+</body>
+</html>
